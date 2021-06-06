@@ -1,0 +1,52 @@
+*{
+  font-family: system-ui;
+}
+html{
+	height: 100%;
+}
+body{
+  
+  background-color: #85FFBD;
+background-image: linear-gradient(
+180deg
+, #1cc17d 10%, #02aab1c2 100%);
+
+  color: white;
+  text-align: center;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input{
+      font-size: 20px;
+    color: grey;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 8px 5px;
+    margin: 5px 0px;
+ 
+}
+#submit{
+  padding: 10px 20px;
+    margin: 15px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background: #444857;
+    color: white;
+  cursor: pointer;
+  transition:0.2s all;
+}
+#submit:hover{
+  box-shadow: 1px 1px 4px #171717;
+
+}
+#position{
+	margin-top: 10%;
+	
+
+}
